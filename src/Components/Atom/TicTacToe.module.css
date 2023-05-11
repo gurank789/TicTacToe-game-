@@ -1,0 +1,37 @@
+.board {
+  display: flex;
+  flex-wrap: wrap;
+  width: 300px;
+  margin: 0 auto;
+}
+
+.square {
+  width: 100px;
+  height: 100px;
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+  border: 1px solid #999;
+  cursor: pointer;
+}
+
+.square:hover {
+  background-color: #eee;
+}
+
+button {
+  display: block;
+  margin: 10px auto;
+  padding: 10px 20px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #333;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #555;
+}
